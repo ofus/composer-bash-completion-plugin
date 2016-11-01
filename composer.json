@@ -6,10 +6,17 @@
     "extra": {
         "class": "\\Stecman\\Component\\Symfony\\Console\\BashCompletion\\BashCompletionPlugin"
     },
-    
+
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ofus/symfony-console-completion"
+        }
+    ],
+
     "require": {
         "composer-plugin-api": "^1.0",
-        "stecman/symfony-console-completion": "~0.3.0"
+        "stecman/symfony-console-completion": "dev-master as 0.3.0"
     },
 
     "autoload": {
