@@ -1,5 +1,5 @@
 {
-    "name": "stecman/composer-bash-completion-plugin",
+    "name": "ofus/composer-bash-completion-plugin",
     "type": "composer-plugin",
     "license": "MIT",
 
@@ -16,7 +16,7 @@
 
     "require": {
         "composer-plugin-api": "^1.0",
-        "stecman/symfony-console-completion": "dev-master as 0.3.0"
+        "ofus/symfony-console-completion": "dev-master as 0.3.0"
     },
 
     "autoload": {
